@@ -1,0 +1,13 @@
+{
+  "name": "fdas-bank-bri",
+  "version": "1.0.0",
+  "description": "Fraud Detection Analysis System for Bank BRI",
+  "scripts": {
+    "dev": "python3 run_server.py",
+    "start": "python3 run_server.py",
+    "build": "echo 'Building Python App...'",
+    "lint": "python3 -m unittest tests/test_pipeline.py"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

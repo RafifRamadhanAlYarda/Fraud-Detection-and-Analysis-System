@@ -1,0 +1,6 @@
+{
+  "name": "FRAUD DETECTION ANALYSIS SYSTEM (FDAS)",
+  "description": "Hybrid ML analysis system using LightGBM and LSTM for detecting banking fraud with SHAP Explainable AI and automated PDF reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

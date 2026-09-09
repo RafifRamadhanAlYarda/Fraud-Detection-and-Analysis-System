@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+scikit-learn
+tensorflow-cpu
+lightgbm
+shap
+matplotlib
+openpyxl
+reportlab
+mysql-connector-python
+plotly

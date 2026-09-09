@@ -1,0 +1,40 @@
+{
+  "model_version": "1.0.0-RESEARCH-VALIDATED",
+  "training_execution_id": "EXEC-RESEARCH-CORPUS-2025",
+  "training_dataset_id": "DS-RESEARCH-50ACCOUNTS-2025",
+  "resampling_method": "tph_smote",
+  "feature_cols": [
+    "nominal_debit",
+    "nominal_credit",
+    "nominal_log",
+    "time_interval",
+    "risk_velocity",
+    "rolling_tx_count_1h",
+    "rolling_tx_count_24h",
+    "hour",
+    "day_of_week",
+    "is_night",
+    "nominal_dev",
+    "liquidation_ratio",
+    "transaction_category_encoded",
+    "transaction_channel_encoded",
+    "transaction_risk_flag"
+  ],
+  "training_timestamp": "2026-08-28T18:03:40.656308Z",
+  "library_version": "tensorflow==2.21.0",
+  "accuracy": 0.989010989010989,
+  "precision": 1.0,
+  "recall": 0.9393939393939394,
+  "f1_score": 0.96875,
+  "roc_auc": 0.9829164124466138,
+  "confusion_matrix": [
+    [
+      298,
+      0
+    ],
+    [
+      4,
+      62
+    ]
+  ]
+}
